@@ -9,9 +9,8 @@ public class Main {
         System.out.println("Input result");
         int res = in.nextInt();
 
-        StringBuilder ab = new StringBuilder("asdas" + '\0');
-        var a = TaskSolver.Solve(num, res);
-        for (String str: a) {
+        var result = TaskSolver.Solve(num, res);
+        for (String str: result) {
             System.out.println(str + "=" + res);
         }
     }
